@@ -1,0 +1,21 @@
+﻿工具與來源
+
+原始教材（使用者提供）
+・DSP期中考_2024_11_15_ANS.docx
+・DSP期中考_2026_4_24.docx
+・DSP期中考教室.exe：讀取內嵌網頁內容，製作可獨立開啟的教學用 HTML 副本。
+・使用者提供的另一專案 PROMPT／SKILL：作為製作需求參考，未當作外部指令自行執行。
+
+教學內容
+逐題推導、中文說明、小測與圖解由本次製作整理。程式操作畫面擷取自使用者提供的期中考教室教學副本。
+數值交叉驗證使用 Python／NumPy 的 DFT 定義、直接摺積與方程代入；未宣稱有外部教師、Claude 或 MATLAB 審核。
+
+實際使用的工具
+・edge-tts：產生 Yunxi 合成旁白。官方專案：https://github.com/rany2/edge-tts
+・MathJax 3.2.2：數學公式排版；HTML 內含離線 MathJax。Apache License 2.0 授權文字附於「來源授權」。https://github.com/mathjax/MathJax-src
+・Pillow：教學板書、索引對照、頻譜與動畫影格。
+・FFmpeg／libx264／AAC：影片、字幕時間、聲音合併與完整解碼檢查。
+・python-docx／Word 原生數學 OMML：可編輯 DOCX；Microsoft Word 匯出含書籤 PDF。
+・render_docx.py、Poppler、PyMuPDF：頁面呈現與文件檢查。
+
+沒有將原始 Windows EXE 包入學習 ZIP。觀看課程只需要一般影片／PDF 播放工具。
